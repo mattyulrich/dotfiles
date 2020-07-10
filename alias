@@ -1,0 +1,7 @@
+alias emacs='emacs -nw'
+alias ssh-uat='gcloud compute --project "talos-ava-uat" ssh --zone "us-east1-b" "uat-talos"'
+alias ssh-capture='gcloud compute --project "talos-ava-uat" ssh --zone "us-east1-d" "capture-us-east1-d"'
+
+ect2() {
+	echo "really - $1";
+}
