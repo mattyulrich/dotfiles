@@ -21,6 +21,7 @@
 
   home.packages = [
     pkgs.git
+    pkgs.gh
     pkgs.emacs
     pkgs.go_1_17
   ];
